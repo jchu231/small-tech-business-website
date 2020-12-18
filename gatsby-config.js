@@ -1,14 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Small Tech Business`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Justin Chu`,
+      summary: `a software developer based in Seattle, WA. He is currently building his own small tech business, Mobo Games.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Small Tech Business is a curated newsletter for people looking for inspiration and learning around starting their own small internet or technology business.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      indieHackers: `jkchu`,
+      twitter: `jstnchu`,
+      website: `https://jkchu.com`,
     },
   },
   plugins: [
