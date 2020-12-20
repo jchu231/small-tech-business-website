@@ -17,7 +17,7 @@ I’ve often preached how valuable it is to learn from other’s mistakes. Pierr
 
 Arvid is back with some more thoughtful analysis from something he has a ton of experience with, being his own customer. This is a strategy I tend to do myself, so I found his insights extremely interesting.
 
-![https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8482c067-0aeb-42c3-95b1-f752dbd4273b_928x167.png](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8482c067-0aeb-42c3-95b1-f752dbd4273b_928x167.png)
+[![The Bootstrapped Founder Episode 59](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8482c067-0aeb-42c3-95b1-f752dbd4273b_928x167.png)](https://share.transistor.fm/s/f6a98264)
 
 ### 3) **[Tech Stack of a One-Man SaaS](https://panelbear.com/blog/tech-stack)**
 
@@ -33,7 +33,7 @@ Anthony covers all of the tools and technologies he uses as part of his analytic
 
 The sheer volume and popularity of podcasts has been growing rapidly for some time now. I found this interview very interesting because the guest, [Mark Asquith](https://twitter.com/MrAsquith), is certainly an expert with his podcast hosting business, [Captivate.fm](https://www.captivate.fm/).
 
-![https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc027c1e5-a561-40fe-b9c6-77e9ecdde794_712x185.png](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc027c1e5-a561-40fe-b9c6-77e9ecdde794_712x185.png)
+[![Indie Bites Episode 13](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc027c1e5-a561-40fe-b9c6-77e9ecdde794_712x185.png)](https://indiebites.co/mark)
 
 ### 5) **[Self-Hosting Still Pays](https://www.servethehome.com/falling-from-the-sky-2020-self-hosting-still-pays/)**
 
@@ -41,7 +41,7 @@ The sheer volume and popularity of podcasts has been growing rapidly for some ti
 
 This piece gives some insightful data comparing the costs of running a high-traffic website via co-located servers (self-hosted) vs AWS reserved instances. Of course this is not a one-size fits all statement, but for Patrick’s use-case he has calculated over 40% savings by opting for self-hosting.
 
-![https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58aa8046-881a-4b1e-bf35-ee8eea5c21ec_536x156.jpeg](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58aa8046-881a-4b1e-bf35-ee8eea5c21ec_536x156.jpeg)
+ d![https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58aa8046-881a-4b1e-bf35-ee8eea5c21ec_536x156.jpeg](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F58aa8046-881a-4b1e-bf35-ee8eea5c21ec_536x156.jpeg)
 
 ## **Small Tech Spotlight: *Exploding Topics***
 

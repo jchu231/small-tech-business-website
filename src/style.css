@@ -321,6 +321,10 @@ a:focus {
   margin: var(--spacing-0);
 }
 
+.blog-post img {
+  max-width: 630px;
+}
+
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
@@ -335,5 +339,9 @@ a:focus {
   ul,
   ol {
     list-style-position: inside;
+  }
+
+  .blog-post img {
+    max-width: 335px;
   }
 }
