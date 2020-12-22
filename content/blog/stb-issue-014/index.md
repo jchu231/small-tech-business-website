@@ -1,7 +1,7 @@
 ---
 title: Issue 14
 date: "2020-12-22T11:00:00.000Z"
-description: "Being your own customer, One-man SaaS Tech Stack, Why you should podcast, Exploding Topics"
+description: "Selling a project, State of sound, Open source auth, Spotlight: Plausible Analytics"
 ---
 ### **1) [Selling a Tiny Project](https://tinyprojects.dev/posts/selling_a_tiny_project)**
 
