@@ -5,7 +5,7 @@ description: "Selling a project, State of sound, Open source auth, Spotlight: Pl
 ---
 ### **1) [Selling a Tiny Project](https://tinyprojects.dev/posts/selling_a_tiny_project)**
 
-### by [Ben Stokes](https://twitter.com/tinyprojectsdev) - Blog Post **📰 (4 min)**
+##### by **[Ben Stokes](https://twitter.com/tinyprojectsdev)** - Blog Post **📰 (4 min)**
 
 Ben has been working on a series of “Tiny Projects”, his 6 month recap was featured in [a previous issue](https://smalltechbusiness.substack.com/p/small-tech-business-12-common-bootstrapper). In this post he recaps his experience selling one of his projects, [One Item Store](https://tinyprojects.dev/projects/one_item_store). It may not be a life changing amount of money, but it is an inspiring story of how accessible building something profitable online can be.
 
@@ -13,7 +13,7 @@ Ben has been working on a series of “Tiny Projects”, his 6 month recap was f
 
 ### **2) [The State of Sound 2020](https://www.bvp.com/atlas/the-state-of-sound-in-2020-and-beyond)**
 
-### by [Gaby Goldberg](https://twitter.com/gaby_goldberg) and [Talia Goldberg](https://twitter.com/TaliaGold) - Article **📰 (5 min)**
+##### by **[Gaby Goldberg](https://twitter.com/gaby_goldberg)** and **[Talia Goldberg](https://twitter.com/TaliaGold)** - Article **📰 (5 min)**
 
 Software innovation over the past decade has largely been focused around internet, mobile, and video. Audio as a medium has existed for sometime, but it is currently in the midst of a second wave of innovation with the rise of podcasts, smart assistants, and the ubiquity of speakers. A great read about the future of this industry.
 
@@ -21,13 +21,13 @@ Software innovation over the past decade has largely been focused around interne
 
 ### **3) [More challenging projects every programmer should try](https://web.eecs.utk.edu/~azh/blog/morechallengingprojects.html)**
 
-### by [Austin Henley](https://twitter.com/austinzhenley) - Blog Post **📰 (3 min)**
+##### by **[Austin Henley](https://twitter.com/austinzhenley)** - Blog Post **📰 (3 min)**
 
 Not everything you build needs to be strictly for business. There’s nothing wrong with building something exciting, it can often lead to a new perspective or a new opportunity that might not have surfaced otherwise. Exploration is a catalyst of innovation. Austin provides a great list of challenging programming projects to tackle, all of which have the potential to mature into marketable products.
 
 ### **4) [Open Source Auth product - Super Tokens](https://supertokens.io/)**
 
-### by [Super Tokens](https://twitter.com/supertokensio) - Product **📦**
+##### by **[Super Tokens](https://twitter.com/supertokensio)** - Product **📦**
 
 Auth is something that I don’t personally enjoy implementing myself in my projects and it is something that I’ve not been very impressed with the current solutions. Super Tokens just launched recently and looks really promising. It is free and open source as a self-hosted option and they also offer a hosted solution with a very generous free tier (5k MAU).
 
@@ -37,7 +37,7 @@ Super Tokens’ open source auth solution
 
 ### **5) [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)**
 
-### by [Refactoring UI](https://twitter.com/refactoringui) - Article **📰 (6 min)**
+##### by **[Refactoring UI](https://twitter.com/refactoringui)** - Article **📰 (6 min)**
 
 Picking a good color scheme may seem like a simple task, but picking a color scheme that looks polished and professional is not straightforward. This article has fantastic visuals to guide you on how to come up with a cohesive color scheme for your product.
 
