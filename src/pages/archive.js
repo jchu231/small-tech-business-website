@@ -6,14 +6,14 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Signup from "../components/signup"
 
-const BlogIndex = ({ data, location }) => {
+const Archive = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes.slice(0, 3);
+  const posts = data.allMarkdownRemark.nodes;
 
   if (posts.length === 0) {
     return (
       <Layout location={location} title={siteTitle}>
-        <SEO title="Home" />
+        <SEO title="Archive" />
         <Bio />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
@@ -26,10 +26,8 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="Home" />
-      <Signup />
-      <Bio />
-      <h2>Recent Issues</h2>
+      <SEO title="Archive" />
+      <h2>Newsletter Archives</h2>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -62,12 +60,13 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
-      <a href="/archive">View all issues →</a>
+      <Signup />
+      <Bio />
     </Layout>
   )
 }
 
-export default BlogIndex
+export default Archive
 
 export const pageQuery = graphql`
   query {
