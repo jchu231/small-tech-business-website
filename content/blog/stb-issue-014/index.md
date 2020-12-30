@@ -31,9 +31,8 @@ Not everything you build needs to be strictly for business. There’s nothing wr
 
 Auth is something that I don’t personally enjoy implementing myself in my projects and it is something that I’ve not been very impressed with the current solutions. Super Tokens just launched recently and looks really promising. It is free and open source as a self-hosted option and they also offer a hosted solution with a very generous free tier (5k MAU).
 
-Super Tokens’ open source auth solution
-
-![https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9baf4caf-4ddf-4f7a-ae9a-73ac996f0e53_1830x860.png](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9baf4caf-4ddf-4f7a-ae9a-73ac996f0e53_1830x860.png)
+![Super Tokens' open source auth solution](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9baf4caf-4ddf-4f7a-ae9a-73ac996f0e53_1830x860.png)
+*Super Tokens' open source auth solution*
 
 ### **5) [Building Your Color Palette](https://refactoringui.com/previews/building-your-color-palette/)**
 
@@ -41,9 +40,8 @@ Super Tokens’ open source auth solution
 
 Picking a good color scheme may seem like a simple task, but picking a color scheme that looks polished and professional is not straightforward. This article has fantastic visuals to guide you on how to come up with a cohesive color scheme for your product.
 
-Refactoring UI’s guide to color palettes
-
-![https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F80c4a55a-77e6-4938-87ea-a9250fb1ec63_1362x1058.png](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F80c4a55a-77e6-4938-87ea-a9250fb1ec63_1362x1058.png)
+![Refactoring UI's color palette guide](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F80c4a55a-77e6-4938-87ea-a9250fb1ec63_1362x1058.png)
+*Refactoring UI's color palette guide*
 
 ## Small Tech Spotlight: *Plausible*
 
@@ -85,9 +83,8 @@ I don't think that Plausible's excellent UI has a significant effect on converti
 
 Lastly, I want to dive into Plausible's pricing model. Of course it is hard to beat free, but Plausible already addresses that with the privacy focus that we talked about above. As [Rob Walling](https://twitter.com/robwalling) often suggests, you should tie your pricing to the value metric that your product is providing. In Plausible's case, the user gains value from seeing analytics for their website traffic. They don't try to gate it by number of websites, just total page views for all websites under an account.
 
-Plausible’s analytics dashboard
-
-![https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F66a574a4-c495-4bcc-abdf-7ad16f89a11e_1107x635.png](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F66a574a4-c495-4bcc-abdf-7ad16f89a11e_1107x635.png)
+![Plausible's analytics dashboard](https://cdn.substack.com/image/fetch/w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F66a574a4-c495-4bcc-abdf-7ad16f89a11e_1107x635.png)
+*Plausible's analytics dashboard*
 
 ## **In the News:**
 
