@@ -1,7 +1,7 @@
 ---
 title: How Plausible finds success and differentiates from Google Analytics
 date: "2020-12-22T11:30:00.000Z"
-description: ""
+description: "Plausible Analytics is a 2-person company that managed to become a profitable competitor to Google Analytics."
 ---
 
 🔗 Link: [https://plausible.io](https://plausible.io/)

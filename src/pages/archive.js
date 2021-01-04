@@ -27,7 +27,7 @@ const Archive = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Archive" />
-      <h2>Newsletter Archives</h2>
+      <h2>Archives</h2>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
@@ -50,7 +50,7 @@ const Archive = ({ data, location }) => {
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
+                      __html: post.frontmatter.description || "",
                     }}
                     itemProp="description"
                   />

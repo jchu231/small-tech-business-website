@@ -32,8 +32,10 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
+  --fontFamily-brand: "Aleo", "Merriweather", "Georgia", Cambria, "Times New Roman",
+  Times, serif;
   --font-body: var(--fontFamily-serif);
-  --font-heading: var(--fontFamily-sans);
+  --font-heading: var(--fontFamily-brand);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;
@@ -57,7 +59,7 @@
   --color-primary: #005b99;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
-  --color-heading: #1a202c;
+  --color-heading: #242d3c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
 }
@@ -281,9 +283,23 @@ a:focus {
 
 .header-link-home {
   font-weight: var(--fontWeight-bold);
-  font-family: var(--font-heading);
+  font-family: var(--fontFamily-brand);
   text-decoration: none;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-4);
+  color: #242d3c;
+}
+
+.header-link-home-inner-flex {
+  display:flex;
+  align-items: center;
+}
+
+.header-link-home-title {
+  padding-left: 0.4rem;
+}
+
+.spacer {
+  margin: 2rem;
 }
 
 .signup {

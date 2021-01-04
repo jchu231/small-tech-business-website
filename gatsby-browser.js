@@ -1,4 +1,5 @@
 // custom typefaces
+import "typeface-aleo"
 import "typeface-montserrat"
 import "typeface-merriweather"
 // normalize CSS across browsers
