@@ -1,5 +1,5 @@
 ---
-title: Monetizing Open-Source - How TailwindCSS has grown into a $2m+ business
+title: Monetizing Open-Source - How Tailwind CSS has grown into a $2m+ business
 date: "2021-01-12T07:30:00.000Z"
 description: "A look into how Adam Wathan and Steve Schoger were able to turn a popular open-source framework into a profitable business"
 ---
