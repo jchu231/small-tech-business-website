@@ -28,7 +28,7 @@ To further exacerbate Bootstrap's loosening footing, the introduction of native 
 
 Tailwind is already being used in [over 100k Github repositories](https://github.com/tailwindlabs/tailwindcss/network/dependents), an impressive number for a fairly new framework without any institutional backing. This dependent repository count, while not perfect, is one of the best metrics for showing Tailwind's growing popularity.
 
-### Serendipidous Beginnings
+### Serendipitous Beginnings
 
 Today, Tailwind is an undeniable success yet its journey has been anything but straightforward. In an [insightful post by Tailwind's founder Adam Wathan](https://adamwathan.me/tailwindcss-from-side-project-byproduct-to-multi-mullion-dollar-business/), he describes how back-to-back failed projects eventually led to a decision to build Tailwind CSS.
 
