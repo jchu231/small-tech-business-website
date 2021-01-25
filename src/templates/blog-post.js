@@ -2,14 +2,15 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 import Bio from "../components/bio"
+import Discuss from "../components/discuss"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Signup from "../components/signup"
 
 const BlogPostTemplate = ({ data, location }) => {
-  const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const { previous, next } = data
+  const post = data.markdownRemark;
+  const siteTitle = data.site.siteMetadata?.title || `Title`;
+  const { previous, next } = data;
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -32,8 +33,11 @@ const BlogPostTemplate = ({ data, location }) => {
         />
         <hr />
         <footer>
-          <Signup />
+          {post.frontmatter.indieHackersLink &&
+          <Discuss indieHackersLink={post.frontmatter.indieHackersLink}/>
+          }
           <Bio />
+          <Signup />
         </footer>
       </article>
       <nav className="blog-post-nav">
@@ -87,6 +91,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        indieHackersLink
       }
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {

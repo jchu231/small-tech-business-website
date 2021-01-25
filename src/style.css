@@ -341,6 +341,21 @@ a:focus {
   max-width: 630px;
 }
 
+.discuss-link {
+  display: flex;
+  cursor: pointer;
+  color: #5a5a5a;
+  line-height: 30px;
+  text-decoration: underline;
+  margin-bottom: 1.4rem;
+}
+
+.discuss-link svg {
+  height: 30px;
+  width: 30px;
+  margin: 0 0.4rem;
+}
+
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }

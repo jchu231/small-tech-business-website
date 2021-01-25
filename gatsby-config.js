@@ -6,7 +6,7 @@ module.exports = {
       summary: `, a software developer based in Seattle, WA. He is currently building his own small tech business, Mobo Games.`,
     },
     description: `Small Tech Business is a curated newsletter for people looking for inspiration and learning around starting their own small internet or technology business.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://smalltechbusiness.com/`,
     social: {
       indieHackers: `jkchu`,
       twitter: `jstnchu`,
@@ -47,6 +47,20 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-twitter-cards`,
+            options: {
+              // title: 'anti/pattern', // website title
+              // separator: '|', // default
+              author: 'by Justin Chu',
+              background: require.resolve('./content/assets/stb-twitter-card-image-2.png'), // path to 1200x630px file or hex code, defaults to black (#000000)
+              fontColor: '#242d3c', // defaults to white (#ffffff)
+              titleFontSize: 72, // default
+              subtitleFontSize: 48, // default
+              fontFile: require.resolve('./content/assets/fonts/Aleo-Regular.ttf'),
+              useFrontmatterSlug: false // default, if true it will use the slug defined in the post frontmatter
+            },
+          }
         ],
       },
     },
@@ -62,13 +76,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Small Tech Business`,
+        short_name: `STB`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#65b8e8`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/stb-logo.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -81,6 +95,14 @@ module.exports = {
       options: {
         domain: `smalltechbusiness.com`,
       },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/
+        }
+      }
     },
   ],
 }

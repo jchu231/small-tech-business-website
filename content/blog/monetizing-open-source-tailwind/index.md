@@ -2,6 +2,7 @@
 title: Monetizing Open-Source - How Tailwind CSS has grown into a $2m+ business
 date: "2021-01-12T07:30:00.000Z"
 description: "A look into how Adam Wathan and Steve Schoger were able to turn a popular open-source framework into a profitable business"
+indieHackersLink: "https://www.indiehackers.com/post/monetizing-open-source-how-tailwind-css-has-grown-into-a-2m-business-4ccd88e6ce"
 ---
 
 [Tailwind CSS](https://tailwindcss.com/) is an open-source CSS framework that was released in November 2017 by Adam Wathan ([@adamwathan](https://twitter.com/adamwathan)) and Steve Schoger ([@steveschoger](https://twitter.com/steveschoger)). Then, 2 years later, they launched Tailwind UI which generated over $2m in revenue. If you're looking for a master class on how to monetize an open-source project - look no further than Tailwind.
