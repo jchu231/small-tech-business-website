@@ -2,7 +2,7 @@
 title: "Building The Next Creator Platform: Lessons from Gumroad, Substack, and Transistor's Growth"
 date: "2021-01-26T07:30:00.000Z"
 description: "Deep dive into successful Creator Platforms to help guide the next wave of products for creators."
-indieHackersLink: ""
+indieHackersLink: "https://www.indiehackers.com/post/building-the-next-creator-platform-lessons-from-gumroad-substack-and-transistors-growth-05186df516"
 ---
 Due to the ongoing pandemic, [over a third of the American workforce](https://www.npr.org/2020/09/16/912744566/jobs-in-the-pandemic-more-are-freelance-and-may-stay-that-way-forever) is now freelancing in some capacity, this represents a significant shift where individuals are choosing to work for themselves rather than for companies. Similar to freelancing, many are choosing to generate income by creating content online.
 
