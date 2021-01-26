@@ -27,6 +27,8 @@ const Bio = () => {
           }
           social {
             twitter
+            website
+            indieHackers
           }
         }
       }
