@@ -2,7 +2,7 @@
 title: "Building Around a Niche: How Carrd went from MVP to success"
 date: "2021-05-13T07:30:00.000Z"
 description: "Learning how to build a better MVP by studying Carrd's growth to $1m ARR and 1.6m users."
-indieHackersLink: ""
+indieHackersLink: "https://www.indiehackers.com/post/building-around-a-niche-how-carrd-went-from-mvp-to-success-33d9b7cc5a"
 ---
 Compared to other industries, software businesses can scale with unparalleled efficiency. Carrd is a 2-person company that has managed to grow to over $1m ARR and over 1.6 million users since launching in 2016. For those unaware, Carrd is a tool that allows people to build one-page sites for pretty much anything.
 
@@ -17,9 +17,9 @@ AJ knew he wanted to build a site-builder, but he also knew he didn't want to di
 AJ chose to concentrate on *profile* and [in a blog post](https://themakingof.carrd.co/#build) he explained his reasoning:
 
 > **It was simple**. As in, *one-page* simple, with usually just a photo, some text, a few links, and maybe a background image. Which was awesome, because that simplicity could be reflected at *every level* of the site builder — from its UI all the way to its backend. 
-
+> 
 > **It had wide appeal.** Unlike the other three niches, this one wasn't limited to a specific audience. In fact, it was open to pretty much anyone wanting a basic presence on the web (= a lot of people).
-
+> 
 > **It was popular.** Two of the most popular downloads at HTML5 UP, Aerial and Identity, were one-page profile templates, which I found a bit surprising until I began running into them everywhere and saw how well they worked in practice.
 
 By selecting a primary type of website he would enable users to build, he not only made his product simpler to build, but he also strategically differentiated his product from its alternatives.
@@ -45,9 +45,9 @@ Indie hackers constantly preach building and launching an MVP as quickly as poss
 From AJ's write-up on [his original plan for Carrd](https://themakingof.carrd.co/#plan):
 
 > **Make every site a simple "stack" of elements**. While this effectively limited each site to a single basic layout, profile sites usually followed some variant of this pattern anyway. Plus, its sheer simplicity meant practically *everything* (from handling responsiveness to the site builder UI itself) would be *significantly* easier to pull off.
-
+> 
 > **Let users choose the stack's *position* on the page as well as the alignment of its elements**. Simple customizations, but ones that would add some much needed variety to my otherwise one-note stack pattern.
-
+> 
 > **Give users the tools to heavily customize *everything* else**. That is, go *beyond* the stuff you'd usually expect. For example, in addition to choosing a text element's font, size, and color, allow users to tweak more *advanced* stuff like casing, line height, and letter spacing. Same deal with the page background: allow the use of not only solid colors and images, but also custom gradients and advanced features like gradient overlays and granular image positioning/sizing.
 
 Simplifying the layout of all of Carrd's templates to be a stack of elements greatly reduced the complexity of Carrd's editor. But that led to a new problem - would this make the sites look too similar and bland to stand out? To counteract this, AJ made sure to make everything else customizable - fonts, colors, backgrounds, etc. Adding this level of customization is relatively cheap, but the impact for users is massive - sites still ended up feeling very distinct.
