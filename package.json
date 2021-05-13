@@ -37,6 +37,8 @@
     "typeface-montserrat": "0.0.75"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "babel-preset-gatsby": "^1.5.0",
     "prettier": "2.1.2"
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
