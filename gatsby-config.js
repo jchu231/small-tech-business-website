@@ -3,7 +3,7 @@ module.exports = {
     title: `Small Tech Business`,
     author: {
       name: `Justin Chu`,
-      summary: `, a software developer based in Seattle, WA. He is currently building his own small tech business, Mobo Games.`,
+      summary: `, a software developer based in Seattle, WA. He is currently building his own small tech business, `,
     },
     description: `Small Tech Business is a curated newsletter for people looking for inspiration and learning around starting their own small internet or technology business.`,
     siteUrl: `https://smalltechbusiness.com/`,

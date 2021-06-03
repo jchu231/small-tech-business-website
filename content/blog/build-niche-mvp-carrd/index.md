@@ -4,6 +4,8 @@ date: "2021-05-13T07:30:00.000Z"
 description: "Learning how to build a better MVP by studying Carrd's growth to $1m ARR and 1.6m users."
 indieHackersLink: "https://www.indiehackers.com/post/building-around-a-niche-how-carrd-went-from-mvp-to-success-33d9b7cc5a"
 ---
+![Carrd Niche MVP Success](./carrd_post_image.png)
+
 Compared to other industries, software businesses can scale with unparalleled efficiency. Carrd is a 2-person company that has managed to grow to over $1m ARR and over 1.6 million users since launching in 2016. For those unaware, Carrd is a tool that allows people to build one-page sites for pretty much anything.
 
 Carrd competes in a crowded website-builder industry against much larger companies like Automattic (Wordpress.com), Squarespace, and Wix. In a similar fashion to Plausible's success [competing with Google Analytics](https://www.smalltechbusiness.com/how-plausible-finds-success-and-differentiates-from-google-analytics/), Carrd has been able to carve a subset of the market that fits perfectly for a business with an indie foundation. [AJ](https://twitter.com/ajlkn), Carrd's sole founder, then built and launched a great MVP that leveraged the unique strengths of Carrd's niche.

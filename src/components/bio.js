@@ -56,6 +56,9 @@ const Bio = () => {
       {author?.name && (
         <p>
           Written by <strong>{author.name}</strong>{author?.summary || null}
+          <a href={`https://gomobo.app/`}>
+            Mobo Games
+          </a>.
           {` `}
           <br />
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
