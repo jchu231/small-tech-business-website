@@ -1,7 +1,7 @@
 ---
 title: "Differentiating an Indie Product: How ConvertKit, Savvy Cal, and Newsletter OS stand out"
 date: "2021-06-03T07:30:00.000Z"
-description: "Analyzing how successful indie businesses are able to differentiate themselves"
+description: "Analyzing how successful indie businesses are able to differentiate themselves."
 indieHackersLink: ""
 ---
 ![Differentiating an Indie Product](./differentiation_post_image.png)
@@ -12,7 +12,7 @@ For most indie tech businesses, tackling an existing market is easier than creat
 
 Great question - the truth is that what gets deemed an "improvement" is highly subjective. For example, if your focus is on privacy, then [Plausible Analytics is easily an improvement over Google Analytics](https://www.smalltechbusiness.com/how-plausible-finds-success-and-differentiates-from-google-analytics/). But for a large marketing team, Plausible's smaller feature set is hardly an improvement. It ultimately depends on what the customer's main focuses are. If you can differentiate your product in an area that your target customers care most about, you will be able to convert.
 
-# ConvertKit -- Differentiating from a Massive Competitor
+### ConvertKit -- Differentiating from a Massive Competitor
 
 Mailchimp is by far the leader in email marketing. In their 2019 annual report, they [claimed to have over 60%](https://martech.org/mailchimp-claims-over-60-share-of-email-industry-in-latest-report-2/) of the market share and **over 12 million customers**. Despite those staggering numbers, this scenario smells of a ripe opportunity for indie founders; those 12 million paying customers are unlikely to all have the same focus.
 
@@ -26,7 +26,7 @@ Nathan [wrote about this strategy in a 2013 blog post](https://nathanbarry.com/
 
 ConvertKit has been able to generate [over $2.3m MRR off of just 36 thousand customers](https://convertkit.baremetrics.com/), which is **less than 0.3%** of Mailchimp's total customer count. ConvertKit is a prime example of how much upside exists if you can successfully differentiate your product in a massive industry full of competitors.
 
-# Savvy Cal -- Reframing the Scheduling Problem
+### Savvy Cal -- Reframing the Scheduling Problem
 
 Calendly is a popular calendar scheduling app that helps you set up meetings efficiently. The basic flow is that Calendly users will send a Calendly invite which prompts the recipient to select from a list of available times. Calendly's product focus is to make it as easy as possible for their users to manage their calendars and schedule meetings, and it largely succeeds.
 
@@ -42,7 +42,7 @@ Derrick Reimer saw a way to reframe the solution with Savvy Cal. Instead of maxi
 
 With Savvy Cal, Derrick tackled a common problem with a solution from a different angle, which has helped lead to his success. With [Newsletter OS](https://newsletteros.com/), Janel approached an **entire product category** with a unique solution.
 
-# Newsletter OS -- A New Type of Info Product
+### Newsletter OS -- A New Type of Info Product
 
 Newsletter OS was [launched in November 2020](https://www.indiehackers.com/post/1-most-commented-on-product-of-the-week-on-product-hunt-7e753b13f7) as "a comprehensive dashboard that helps you launch, manage, and grow your newsletter."
 
@@ -54,7 +54,7 @@ Janel wanted to package everything that would be most useful to someone growing 
 
 Let's face it, things move quickly. 2020 was a clear example of how rapidly entire industries can undergo drastic change. As society's preferences change, or as new tools unlock further capabilities, founders can take advantage of these opportunities by creating differentiated solutions like Savvy Cal and Newsletter OS.
 
-# Differentiate by Building for Your Customer
+### Differentiate by Building for Your Customer
 
 The most important path to differentiation is **catering to your customers**. Twilio's founder and CEO, Jeff Lawson, described [in a podcast interview](https://a16z.com/2021/01/12/rise-of-developers-creative-class-company-innovation-ask-a-developer-book/) why it is so important to build for your customers:
 
@@ -66,7 +66,7 @@ Earlier in that same interview, Jeff described how most software products today 
 
 Catering to your customers is something that smaller businesses can do better than most big tech companies, primarily because you can provide customers with "white glove" treatment. For example, a B2B SaaS company, like [Hyperping](https://hyperping.baremetrics.com/), with less than 1,000 customers can listen to each customer and can adjust its product roadmap accordingly to cement a fantastic, loyal relationship moving forward.
 
-# Paths to Differentiation - Wrap-up:
+### Paths to Differentiation - Wrap-up:
 
 - **Don't be afraid to go after large, crowded markets** like email marketing - you only need to convince a tiny portion of it to be successful
 - For some existing problems, take a step back and **try to reframe a solution** that resonates with customers better
