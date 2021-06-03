@@ -30,9 +30,13 @@ ConvertKit has been able to generate [over $2.3m MRR off of just 36 thousand cu
 
 Calendly is a popular calendar scheduling app that helps you set up meetings efficiently. The basic flow is that Calendly users will send a Calendly invite which prompts the recipient to select from a list of available times. Calendly's product focus is to make it as easy as possible for their users to manage their calendars and schedule meetings, and it largely succeeds.
 
-There is a wrinkle though, by focusing too much on just the paying customer of Calendly, a major blindspot emerged: the person receiving the calendar link. Not everyone agrees, but there is a notable number of people that feel sending a calendar link is impersonal and rude. Savvy Cal's founder, Derrick Reimer, noticed this and saw an opportunity to provide a better solution to the problem. Derrick described this in a [podcast interview with Cory Milner](https://poststatus.com/upcoming-webinar-the-savvycal-story-with-founder-derrick-reimer/):
+There is a wrinkle though, by focusing too much on just the paying customer of Calendly, a major blindspot emerged: the person receiving the calendar link. Not everyone agrees, but there is a notable number of people that feel sending a calendar link is impersonal and rude. Savvy Cal's founder, Derrick Reimer, noticed this and saw an opportunity to provide a better solution to the problem. Derrick described this on the [Indie Hacker podcast with Courtland Allen](https://share.transistor.fm/s/ddad295d):
 
-> One of the first problems [of Calendly]...is the awkward, dynamics of sending someone a Calendly link. There are segments of the market that just [don't] do it because it's just considered so faux pas. ... I think a big driver of the traction that I've had so far is a focus on that in particular
+> [38:01] I used [Calendly] to schedule customer interviews for all products I’ve done in the past… The thing that got me really intrigued by it was observing the weird power dynamic issue that arises around using scheduling links. There are some pockets of the industry where people refuse to use calendar because it is just too laden with landmines, like you might end up offending somebody and so they just always fall back to the old-fashioned way of scheduling things.
+> 
+> It was a curious thing to me that like there is this class of tools that save people time and there’s all this resistance to using them.
+> 
+> I wasn’t seeing a lot of innovation happening on the product front around trying to make this better.
 
 Derrick Reimer saw a way to reframe the solution with Savvy Cal. Instead of maximizing convenience for only the paying customer, Savvy Cal's focus was on the relationship between the two people scheduling the meeting. That reframing unlocked the doors to customers that Calendly did not serve well.
 
