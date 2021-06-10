@@ -27,15 +27,31 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Home" />
-      <h3>Recent Issues</h3>
-      <ol style={{ listStyle: `none` }}>
+      <h1 className="landing-header">Learn <span className="landing-accent">strategies</span> to build your
+        <br/>
+        <span className="landing-larger">indie tech business</span>
+      </h1>
+      <div className="article-card landing-list-container">
+        <ul className="landing-list">
+          <li>1 to 2 <strong>in-depth articles</strong> in your inbox every month</li>
+          <li>Case studies of successful <strong>indie founded business</strong></li>
+          <li><strong>Frameworks and strategies</strong> to help you build and grow your business</li>
+        </ul>
+      </div>
+
+      <Signup />
+      <Bio />
+      <hr />
+      <div className="spacer"> </div>
+      <h3>Latest Articles</h3>
+      <ol style={{ listStyle: `none`, marginLeft: `0` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
             <li key={post.fields.slug}>
               <article
-                className="post-list-item"
+                className="post-list-item article-card"
                 itemScope
                 itemType="http://schema.org/Article"
               >
@@ -60,12 +76,9 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </ol>
-      <a href="/archive">View all issues →</a>
-      <div className="spacer"></div>
-      <hr />
-      <div className="spacer"></div>
-      <Signup />
-      <Bio />
+      <div className="spacer"> </div>
+      <a href="/archive">View all →</a>
+      <div className="spacer"> </div>
     </Layout>
   )
 }

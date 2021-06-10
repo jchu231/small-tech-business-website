@@ -1,7 +1,7 @@
 ---
-title: "Building Around a Niche: How Carrd went from MVP to success"
+title: "How Carrd went from MVP to success"
 date: "2021-05-13T07:30:00.000Z"
-description: "Learning how to build a better MVP by studying Carrd's growth to $1m ARR and 1.6m users."
+description: "Learn how to build a better MVP by studying Carrd's growth to $1m ARR and 1.6m users."
 indieHackersLink: "https://www.indiehackers.com/post/building-around-a-niche-how-carrd-went-from-mvp-to-success-33d9b7cc5a"
 ---
 ![Carrd Niche MVP Success](./carrd_post_image.png)

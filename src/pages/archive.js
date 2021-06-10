@@ -28,14 +28,14 @@ const Archive = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Archive" />
       <h2>Archives</h2>
-      <ol style={{ listStyle: `none` }}>
+      <ol style={{ listStyle: `none`, marginLeft: `0` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
             <li key={post.fields.slug}>
               <article
-                className="post-list-item"
+                className="post-list-item article-card"
                 itemScope
                 itemType="http://schema.org/Article"
               >

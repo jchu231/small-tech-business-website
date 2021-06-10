@@ -74,7 +74,7 @@ const Bio = () => {
           &#8226;
           &nbsp;
           <a href={`https://www.indiehackers.com/${social?.indieHackers || ``}`}>
-            Indie Hackers
+            IH
           </a>
         </p>
       )}

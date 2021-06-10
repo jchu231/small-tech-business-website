@@ -1,7 +1,7 @@
 ---
-title: "Differentiating an Indie Product: How ConvertKit, Savvy Cal, and Newsletter OS stand out"
+title: "Differentiating an Indie Product"
 date: "2021-06-03T07:30:00.000Z"
-description: "Analyzing how successful indie businesses are able to differentiate themselves."
+description: "How ConvertKit, Savvy Cal, and Newsletter OS stand out."
 indieHackersLink: "https://www.indiehackers.com/post/differentiating-an-indie-product-how-convertkit-savvy-cal-and-newsletter-os-stand-out-369e54ca1b"
 ---
 ![Differentiating an Indie Product](./differentiation_post_image.png)
