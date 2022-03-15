@@ -25,15 +25,13 @@ const BlogIndex = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} latest={posts[0]}>
       <SEO title="Home" />
-      <h1 className="landing-header">Learn <span className="landing-accent">strategies</span> to build your
-        <br/>
-        <span className="landing-larger">indie tech business</span>
+      <h1 className="landing-header">Learn from successful indie founders
       </h1>
-      <div className="article-card landing-list-container">
+      <div className="hero-card landing-list-container">
         <ul className="landing-list">
-          <li>1 to 2 <strong>in-depth articles</strong> in your inbox every month</li>
+          <li><strong>In-depth articles</strong> with actionable strategies</li>
           <li>Case studies of successful <strong>indie founded business</strong></li>
           <li><strong>Frameworks and strategies</strong> to help you build and grow your business</li>
         </ul>
@@ -50,34 +48,37 @@ const BlogIndex = ({ data, location }) => {
 
           return (
             <li key={post.fields.slug}>
-              <article
-                className="post-list-item article-card"
-                itemScope
-                itemType="http://schema.org/Article"
-              >
-                <header>
-                  <h2>
-                    <Link to={post.fields.slug} itemProp="url">
+              <Link to={post.fields.slug} itemProp="url">
+                <article
+                  className="post-list-item article-card article-link"
+                  itemScope
+                  itemType="http://schema.org/Article"
+                >
+                  <header>
+                    <h2>
                       <span itemProp="headline">{title}</span>
-                    </Link>
-                  </h2>
-                  <small>{post.frontmatter.date}</small>
-                </header>
-                <section>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || "",
-                    }}
-                    itemProp="description"
-                  />
-                </section>
-              </article>
+                    </h2>
+                    <small>{post.frontmatter.date}</small>
+                  </header>
+                  <section>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: post.frontmatter.description || "",
+                      }}
+                      itemProp="description"
+                    />
+                    <p className="article-footer">
+                      <span className="t-Caps u-Arrow" href="">Read now</span>
+                    </p>
+                  </section>
+                </article>
+              </Link>
             </li>
           )
         })}
       </ol>
       <div className="spacer"> </div>
-      <a href="/archive">View all →</a>
+      <a href="/archive">View Archive →</a>
       <div className="spacer"> </div>
     </Layout>
   )

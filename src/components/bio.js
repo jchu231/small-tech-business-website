@@ -60,7 +60,7 @@ const Bio = () => {
             Mobo Games
           </a>.
           {` `}
-          <br />
+          <br/>
           <a href={`https://twitter.com/${social?.twitter || ``}`}>
             Twitter
           </a>

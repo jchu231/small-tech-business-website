@@ -10,10 +10,10 @@ import Signup from "../components/signup"
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata?.title || `Title`;
-  const { previous, next } = data;
+  const { previous, next, newest } = data;
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} latest={newest}>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
@@ -79,6 +79,7 @@ export const pageQuery = graphql`
     $id: String!
     $previousPostId: String
     $nextPostId: String
+    $newestPostId: String
   ) {
     site {
       siteMetadata {
@@ -105,6 +106,14 @@ export const pageQuery = graphql`
       }
     }
     next: markdownRemark(id: { eq: $nextPostId }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
+    }
+    newest: markdownRemark(id: { eq: $newestPostId }) {
       fields {
         slug
       }

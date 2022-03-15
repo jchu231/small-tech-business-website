@@ -3,7 +3,7 @@ module.exports = {
     title: `Small Tech Business`,
     author: {
       name: `Justin Chu`,
-      summary: `, a software developer based in Seattle, WA. He is currently building his own small tech business, `,
+      summary: `, an indie founder and software developer based in Seattle, WA. He is currently building his own small tech business, `,
     },
     description: `Small Tech Business is a curated newsletter for people looking for inspiration and learning around starting their own small internet or technology business.`,
     siteUrl: `https://smalltechbusiness.com/`,
@@ -66,13 +66,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
+    /*{
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
-    },
-    `gatsby-plugin-feed`,
+    },*/
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

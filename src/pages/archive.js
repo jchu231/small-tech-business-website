@@ -25,7 +25,7 @@ const Archive = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title={siteTitle} latest={posts[0]}>
       <SEO title="Archive" />
       <h2>Archives</h2>
       <ol style={{ listStyle: `none`, marginLeft: `0` }}>
@@ -60,6 +60,7 @@ const Archive = ({ data, location }) => {
           )
         })}
       </ol>
+      <br/>
       <Signup />
       <Bio />
     </Layout>
