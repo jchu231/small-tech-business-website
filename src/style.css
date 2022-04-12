@@ -58,7 +58,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
+  --color-primary: #5865f2;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #242d3c;
@@ -336,14 +336,14 @@ a:focus {
   z-index: 20;
   left: 50%;
   top: 100%;
-  width: 250px;
+  width: 300px;
   transform: translate(-50%,-50%);
   font-size: var(--fontSize-3);
 }
 
 @media (min-width: 880px) {
   .stb--page-nav .logo {
-    width: 300px;
+    width: 380px;
     font-size: var(--fontSize-4);
   }
 }
@@ -548,7 +548,7 @@ a:focus {
 
 .logo-card:hover {
   border-radius: 5px;
-  border: 2px solid var(--color-heading);
+  border: 2px solid var(--color-primary);
   box-shadow: 5px 5px 0px var(--color-accent-light);
   background-color: #ffffff;
 }
@@ -565,7 +565,7 @@ a:focus {
 .hero-card:hover {
   padding: 22px;
   border-radius: 5px;
-  border: 1px solid #0077aa;
+  border: 1px solid var(--color-primary);
   box-shadow: 10px 10px 0px var(--color-accent-light);
   background-color: #ffffff;
 }
@@ -582,7 +582,7 @@ a:focus {
 .article-card:hover {
   padding: 22px;
   border-radius: 5px;
-  border: 1px solid #0077aa;
+  border: 1px solid var(--color-primary);
   box-shadow: 10px 10px 0px var(--color-accent-light);
   background-color: #ffffff;
 }

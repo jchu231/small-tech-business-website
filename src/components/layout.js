@@ -34,11 +34,11 @@ const Layout = ({ location, title, latest, children }) => {
         <h1 className="logo">
           <Link className="header-link-home" to="/">
             <div className="header-link-home-inner-flex logo-card">
-              {/*<Image*/}
-              {/*  fixed={logo}*/}
-              {/*  alt={`Small Tech Business logo`}*/}
-              {/*  className="stb-logo"*/}
-              {/*/>*/}
+              <Image
+                fixed={logo}
+                alt={`Small Tech Business logo`}
+                className="stb-logo"
+              />
               <div className="header-link-home-title">{title}</div>
             </div>
           </Link>
