@@ -79,7 +79,7 @@ module.exports = {
         short_name: `STB`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#65b8e8`,
+        theme_color: `#242d3c`,
         display: `minimal-ui`,
         icon: `content/assets/stb-logo.png`,
       },
