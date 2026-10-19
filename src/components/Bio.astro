@@ -1,0 +1,25 @@
+---
+import { Image } from "astro:assets";
+import profilePic from "../../content/assets/profile-pic.jpg";
+import { SITE_AUTHOR, SOCIAL } from "../consts";
+---
+
+<div class="bio">
+  <Image
+    src={profilePic}
+    width={50}
+    height={50}
+    quality={95}
+    alt={SITE_AUTHOR.name}
+    class="bio-avatar"
+  />
+  <p>
+    Written by <strong>{SITE_AUTHOR.name}</strong>{SITE_AUTHOR.summary}<a href="https://gomobo.app/">Mobo Games</a>.
+    <br />
+    <a href={`https://twitter.com/${SOCIAL.twitter}`}>Twitter</a>
+    &nbsp;&#8226;&nbsp;
+    <a href={SOCIAL.website}>Website</a>
+    &nbsp;&#8226;&nbsp;
+    <a href={`https://www.indiehackers.com/${SOCIAL.indieHackers}`}>IH</a>
+  </p>
+</div>

@@ -1,0 +1,89 @@
+---
+import { render } from "astro:content";
+import Bio from "../components/Bio.astro";
+import Discuss from "../components/Discuss.astro";
+import Signup from "../components/Signup.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import {
+  formatPostDate,
+  getPostsNewestFirst,
+  getPostsOldestFirst,
+  postPath,
+  type BlogPost,
+} from "../lib/posts";
+
+export async function getStaticPaths() {
+  const oldestFirst = await getPostsOldestFirst();
+  const newestFirst = await getPostsNewestFirst();
+  const newest = newestFirst[0];
+
+  return oldestFirst.map((post, index) => {
+    const previous = index === 0 ? undefined : oldestFirst[index - 1];
+    const next = index === oldestFirst.length - 1 ? undefined : oldestFirst[index + 1];
+
+    return {
+      params: { slug: post.id },
+      props: { post, previous, next, newest },
+    };
+  });
+}
+
+interface Props {
+  post: BlogPost;
+  previous?: BlogPost;
+  next?: BlogPost;
+  newest?: BlogPost;
+}
+
+const { post, previous, next, newest } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BaseLayout
+  title={post.data.title}
+  description={post.data.description}
+  image={`${postPath(post)}twitter-card.jpg`}
+  ogType="article"
+  latest={newest}
+>
+  <article class="blog-post" itemscope itemtype="http://schema.org/Article">
+    <header>
+      <h1 itemprop="headline">{post.data.title}</h1>
+      <h2 class="post-subtitle">{post.data.description}</h2>
+      <p>{formatPostDate(post.data.date)}</p>
+    </header>
+    <section itemprop="articleBody">
+      <Content />
+    </section>
+    <hr />
+    <footer>
+      {post.data.indieHackersLink && <Discuss indieHackersLink={post.data.indieHackersLink} />}
+      <Bio />
+      <Signup />
+    </footer>
+  </article>
+  <nav class="blog-post-nav">
+    <ul
+      style="display: flex; flex-wrap: wrap; justify-content: space-between; list-style: none; padding: 0;"
+    >
+      <li>
+        {
+          previous && (
+            <a href={postPath(previous)} rel="prev">
+              ← {previous.data.title}
+            </a>
+          )
+        }
+      </li>
+      <li>
+        {
+          next && (
+            <a href={postPath(next)} rel="next">
+              {next.data.title} →
+            </a>
+          )
+        }
+      </li>
+    </ul>
+  </nav>
+</BaseLayout>

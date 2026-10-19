@@ -1,0 +1,50 @@
+---
+import Bio from "../components/Bio.astro";
+import Signup from "../components/Signup.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { formatPostDate, getPostsNewestFirst, postPath } from "../lib/posts";
+
+const posts = await getPostsNewestFirst();
+const newest = posts[0];
+---
+
+<BaseLayout title="Archive" latest={newest}>
+  {
+    posts.length === 0 ? (
+      <>
+        <Bio />
+        <p>No blog posts found. Add markdown posts to "content/blog".</p>
+      </>
+    ) : (
+      <>
+        <h2>Archives</h2>
+        <ol style="list-style: none; margin-left: 0;">
+          {posts.map((post) => (
+            <li>
+              <article
+                class="post-list-item article-card"
+                itemscope
+                itemtype="http://schema.org/Article"
+              >
+                <header>
+                  <h2>
+                    <a href={postPath(post)} itemprop="url">
+                      <span itemprop="headline">{post.data.title}</span>
+                    </a>
+                  </h2>
+                  <small>{formatPostDate(post.data.date)}</small>
+                </header>
+                <section>
+                  <p itemprop="description" set:html={post.data.description} />
+                </section>
+              </article>
+            </li>
+          ))}
+        </ol>
+        <br />
+        <Signup />
+        <Bio />
+      </>
+    )
+  }
+</BaseLayout>

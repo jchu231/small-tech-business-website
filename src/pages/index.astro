@@ -1,0 +1,73 @@
+---
+import Bio from "../components/Bio.astro";
+import Signup from "../components/Signup.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { formatPostDate, getPostsNewestFirst, postPath } from "../lib/posts";
+
+const posts = await getPostsNewestFirst();
+const latestThree = posts.slice(0, 3);
+const newest = posts[0];
+---
+
+<BaseLayout title="Home" latest={newest}>
+  {
+    latestThree.length === 0 ? (
+      <>
+        <Bio />
+        <p>No blog posts found. Add markdown posts to "content/blog".</p>
+      </>
+    ) : (
+      <>
+        <h1 class="landing-header">Learn from successful indie founders</h1>
+        <div class="hero-card landing-list-container">
+          <ul class="landing-list">
+            <li>
+              <strong>In-depth articles</strong> with actionable strategies
+            </li>
+            <li>
+              Case studies of successful <strong>indie founded business</strong>
+            </li>
+            <li>
+              <strong>Frameworks and strategies</strong> to help you build and grow your business
+            </li>
+          </ul>
+        </div>
+
+        <Signup />
+        <Bio />
+        <hr />
+        <div class="spacer"> </div>
+        <h3>Latest Articles</h3>
+        <ol style="list-style: none; margin-left: 0;">
+          {latestThree.map((post) => (
+            <li>
+              <a href={postPath(post)} itemprop="url">
+                <article
+                  class="post-list-item article-card article-link"
+                  itemscope
+                  itemtype="http://schema.org/Article"
+                >
+                  <header>
+                    <h2>
+                      <span itemprop="headline">{post.data.title}</span>
+                    </h2>
+                    <small>{formatPostDate(post.data.date)}</small>
+                  </header>
+                  <section>
+                    <p itemprop="description" set:html={post.data.description} />
+                    <p class="article-footer">
+                      <span class="t-Caps u-Arrow">Read now</span>
+                    </p>
+                  </section>
+                </article>
+              </a>
+            </li>
+          ))}
+        </ol>
+        <div class="spacer"> </div>
+        <a href="/archive">View Archive →</a>
+        <div class="spacer"> </div>
+      </>
+    )
+  }
+</BaseLayout>

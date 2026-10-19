@@ -1,0 +1,30 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  ASTRO_TELEMETRY_DISABLED = "1"
+
+# Gatsby published `public/`. Astro publishes `dist/`.
+# Keep the existing apex → www redirect in the Netlify domain settings.
+
+[[redirects]]
+  from = "/using-typescript"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/using-typescript/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/manifest.webmanifest"
+  to = "/site.webmanifest"
+  status = 200
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
