@@ -1,0 +1,87 @@
+---
+import { Image } from "astro:assets";
+import BaseHead from "../components/BaseHead.astro";
+import logo from "../../content/assets/stb-logo.png";
+import { SITE_TITLE } from "../consts";
+import { postPath, type BlogPost } from "../lib/posts";
+
+import "@fontsource/merriweather/400.css";
+import "@fontsource/merriweather/400-italic.css";
+import "@fontsource/merriweather/700.css";
+import "@fontsource/merriweather/700-italic.css";
+import "../styles/normalize.css";
+import "../styles/style.css";
+import "prismjs/themes/prism.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  ogType?: "website" | "article";
+  latest?: BlogPost;
+}
+
+const { title, description, image, ogType, latest } = Astro.props;
+const isRootPath = Astro.url.pathname === "/";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} image={image} ogType={ogType} />
+  </head>
+  <body>
+    <nav class="stb--page-nav">
+      <div class="stb--navbar">
+        <div class="column">
+          <h1 class="logo">
+            <a class="header-link-home" href="/">
+              <div class="header-link-home-inner-flex logo-card">
+                <Image
+                  src={logo}
+                  width={50}
+                  height={50}
+                  quality={95}
+                  alt="Small Tech Business logo"
+                  class="stb-logo"
+                />
+                <div class="header-link-home-title">{SITE_TITLE}</div>
+              </div>
+            </a>
+          </h1>
+          {
+            latest && (
+              <a class="out-now" href={postPath(latest)} itemprop="url">
+                <div class="IssueTitle tiny">
+                  <div class="t-Caps meta tiny">
+                    <span>NEW</span>
+                  </div>
+                  <h3 class="t-IssueTitle title">{latest.data.title}</h3>
+                </div>
+              </a>
+            )
+          }
+          <ul class="nav">
+            <li>
+              <a href="/archive/"><span>Archive</span></a>
+            </li>
+            <li>
+              <a href="/about/"><span>About</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="global-wrapper" data-is-root-path={isRootPath ? "true" : "false"}>
+      <header class="global-header">
+        <div class="stb--navbar"></div>
+      </header>
+      <main>
+        <slot />
+      </main>
+      <footer>
+        © {new Date().getFullYear()}, {SITE_TITLE}
+      </footer>
+    </div>
+  </body>
+</html>

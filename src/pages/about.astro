@@ -1,0 +1,20 @@
+---
+import Signup from "../components/Signup.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { SOCIAL } from "../consts";
+---
+
+<BaseLayout title="About">
+  <h2>About</h2>
+  <p>
+    Small Tech Business is a blog and newsletter written by Justin Chu, an indie founder and software developer based out of Seattle, WA.
+  </p>
+  <p>
+    Each Small Tech Business article takes a look at successful tech businesses led by indie founders and tries to extract strategies and learnings for the rest of us to follow.
+  </p>
+  <p>
+    Follow Justin on <a href={`https://twitter.com/${SOCIAL.twitter}`}>Twitter</a> for latest updates on what he is up to.
+  </p>
+  <br />
+  <Signup />
+</BaseLayout>

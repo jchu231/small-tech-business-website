@@ -666,7 +666,17 @@ a:focus {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
   min-width: 50px;
+  width: 50px;
+  height: 50px;
   border-radius: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.stb-logo {
+  display: block;
+  width: 50px;
+  height: 50px;
 }
 
 .blog-post header h1 {
@@ -684,6 +694,8 @@ a:focus {
 
 .blog-post img {
   max-width: 630px;
+  height: auto;
+  display: block;
 }
 
 .discuss-link {
