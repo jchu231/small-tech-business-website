@@ -41,7 +41,7 @@ src/consts.ts                  Title, description, social handles
 scripts/site-assets.mjs        RSS feed and share-card images
 astro.config.mjs               Site URL, trailing slashes, sitemap
 netlify.toml                   Build command, publish dir, legacy redirects
-docs/                          This guide and LOCAL_DEV.md
+docs/                          Handoff, this guide, and LOCAL_DEV.md
 ```
 
 ## How a request becomes HTML

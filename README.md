@@ -22,6 +22,7 @@ npm run preview   # serves the production build
 
 | Doc | Use it for |
 | --- | --- |
+| [docs/HANDOFF.md](docs/HANDOFF.md) | What changed in the Gatsby → Astro migration, and what to leave alone |
 | [docs/LOCAL_DEV.md](docs/LOCAL_DEV.md) | Install, run, build, and check the site locally |
 | [docs/DEV_RAMPUP.md](docs/DEV_RAMPUP.md) | How the codebase is organized, including the old Gatsby map |
 
